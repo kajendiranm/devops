@@ -1,7 +1,7 @@
 name: CI-Pipeline
 
 on:
-  push: [ main ]
+  push: [main]
 
 jobs:
   build:
@@ -21,4 +21,3 @@ jobs:
     
     - name: Run tests
       run: npm test
-      
