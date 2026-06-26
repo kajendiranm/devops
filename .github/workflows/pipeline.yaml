@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Execute Application
-        run: npm run
+        run: npm run run
       
       - name: Run tests
         run: npm test
